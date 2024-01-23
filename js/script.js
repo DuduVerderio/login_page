@@ -8,6 +8,7 @@ signinBtn.onclick = function(){
     title.innerHTML = "Logar";
     signupBtn.classList.add("disable");
     signinBtn.classList.remove("disable");
+    document.title = "Página de Login";
 }
 
 signupBtn.onclick = function(){
@@ -15,4 +16,5 @@ signupBtn.onclick = function(){
     title.innerHTML = "Cadastrar";
     signinBtn.classList.add("disable");
     signupBtn.classList.remove("disable");
+    document.title = "Página de Cadastro";
 }

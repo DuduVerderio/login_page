@@ -35,7 +35,7 @@
 
 .form-box h1::after{
     content: '';
-    width: 70px;
+    width: 60px;
     height: 4px;
     border-radius: 3px;
     background: #3c00a0;
